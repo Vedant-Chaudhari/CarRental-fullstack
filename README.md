@@ -1,81 +1,74 @@
 # 🚗 Car Rental Platform — Full Stack Web Application
-
-A modern, full-stack car rental platform that allows users to browse, book, and manage vehicle listings. This project demonstrates real-world web development using a scalable architecture and cloud deployment.
+A comprehensive, full-stack car rental platform that allows users to browse, book, and manage vehicle listings. This project focuses on modern web architecture, secure authentication, and cloud-based deployment.
 
 ---
+
 ## 🌐 Live Demo
+Experience the platform live: [Car Rental Demo](https://car-rental-fullstack-bay.vercel.app/)
 
-Experience the platform live:
-
-<h1 align="center">
-  <a href="https://car-rental-fullstack-bay.vercel.app/">👉 Click Here to View Live Demo</a>
-</h1>
-
-Source code:
-👉 [https://github.com/Vedant-Chaudhari/](https://github.com/Vedant-Chaudhari/CarRental-fullstack)
+## 💻 Repository
+Source code: [GitHub Repo](https://github.com/Vedant-Chaudhari/CarRental-fullstack)
 
 ---
 
 ## 📌 Project Overview
-
-This project is a fully functional **Car Rental System** designed to simulate real-world booking platforms. It enables users to explore available vehicles, view details, and manage listings efficiently.
+This project is a functional Car Rental System, designed to simulate real-world booking platforms. It features a robust backend for user management and a dynamic frontend for browsing and booking vehicles.
 
 ### Key Highlights:
-
-* **Full Stack Integration:** Smooth communication between frontend and backend.
-* **Dynamic Listings:** Users can create, edit, and delete car listings.
-* **User Interaction:** Booking and browsing system with responsive UI.
-* **Cloud Deployment:** Hosted using modern deployment platforms.
+- **End-to-End Communication:** Seamless integration between React frontend and Node.js/Express backend.
+- **Secure Authentication:** Implementation of JWT-based login and signup flows.
+- **Cloud Infrastructure:** Fully deployed environment using Vercel and MongoDB Atlas.
+- **Image Management:** Cloud-based image uploads and optimization using ImageKit.
 
 ---
 
 ## 🛠 Tech Stack
-
-| Component      | Technology                          |
-| :------------- | :---------------------------------- |
-| **Frontend**   | EJS, HTML, CSS, Bootstrap           |
-| **Backend**    | Node.js, Express.js                 |
-| **Database**   | MongoDB / MongoDB Atlas             |
-| **Auth**       | Passport.js / Session-based Auth    |
-| **Deployment** | Vercel (Frontend), Render (Backend) |
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | React.js, Tailwind CSS, Axios, React Router |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB Atlas (NoSQL) |
+| **Auth** | JSON Web Tokens (JWT) & Bcrypt.js |
+| **Image Storage** | ImageKit |
+| **Deployment** | Vercel (Frontend & Backend) |
 
 ---
 
 ## ✨ Features
-
-* [x] **User Authentication:** Signup, login, and logout functionality
-* [x] **Car Listings:** Add, edit, and delete rental listings
-* [x] **Booking System:** Users can book available cars
-* [x] **Responsive Design:** Works on mobile and desktop
-* [x] **RESTful Routes:** Clean backend routing structure
+- [x] **User Signup & Login:** Secure account creation and credential validation.
+- [x] **JWT Authentication:** Token-based session management.
+- [x] **Protected Routes:** Dashboard access restricted to authorized users.
+- [x] **Car Listings:** Browse available cars with details and images.
+- [x] **Booking System:** Users can book available cars for specific dates.
+- [x] **Owner Dashboard:** Car owners can add, edit, and manage listings.
+- [x] **Image Uploads:** Cloud-based image management via ImageKit.
+- [x] **RESTful API:** Clean API design for cars, bookings, and user data.
 
 ---
 
 ## 🔐 Authentication Flow
-
-1. **User Login/Signup:** User enters credentials
-2. **Validation:** Server verifies data
-3. **Session Creation:** User session is created
-4. **Authorization:** Protected routes allow only logged-in users
-5. **Access Control:** Only owners can edit/delete listings
+1. **User Signup/Login:** User submits credentials via the React form.
+2. **Backend Validation:** Node.js server validates data and checks MongoDB.
+3. **JWT Generation:** Server signs a unique token using a secret key.
+4. **Storage:** The token is sent to the client and stored in `localStorage`.
+5. **Authorization:** The token is included in headers for all protected API requests.
 
 ---
 
 ## 📚 Key Learnings
-
-* [x] Building full-stack applications using Node.js and Express
-* [x] Implementing authentication and authorization
-* [x] Working with MongoDB and schema design
-* [x] Managing routes and middleware in Express
-* [x] Deploying full-stack apps on cloud platforms
+- [x] Architectural design of Full Stack applications.
+- [x] Managing environment variables across different deployment environments.
+- [x] Implementing secure password hashing using Bcrypt.js.
+- [x] Handling Cross-Origin Resource Sharing (CORS) between frontend and backend.
+- [x] Cloud image storage and optimization using ImageKit.
+- [x] Deploying full-stack Node.js apps on Vercel with custom routing.
 
 ---
 
 ## ⭐ Future Improvements
-
-* [ ] **Real-time Availability Tracking**
-* [ ] **Image Upload Optimization (Cloudinary)**
-* [ ] **Advanced Search & Filters**
-
-
----
+- [ ] **Online Payments:** Integration with Razorpay or Stripe.
+- [ ] **Real-time Availability:** Live car availability tracking.
+- [ ] **Map Integration:** Google Maps API for location-based search.
+- [ ] **Advanced Filters:** Search by price, category, fuel type, and more.
+- [ ] **HTTP-Only Cookies:** Enhancing security for token storage.
+- [ ] **Dockerization:** Containerizing the app for easier deployment.
