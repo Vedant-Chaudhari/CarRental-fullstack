@@ -68,7 +68,5 @@ This project is a functional Car Rental System, designed to simulate real-world 
 ## ⭐ Future Improvements
 - [ ] **Online Payments:** Integration with Razorpay or Stripe.
 - [ ] **Real-time Availability:** Live car availability tracking.
-- [ ] **Map Integration:** Google Maps API for location-based search.
 - [ ] **Advanced Filters:** Search by price, category, fuel type, and more.
 - [ ] **HTTP-Only Cookies:** Enhancing security for token storage.
-- [ ] **Dockerization:** Containerizing the app for easier deployment.
