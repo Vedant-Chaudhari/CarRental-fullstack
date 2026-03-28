@@ -7,8 +7,7 @@ A modern, full-stack car rental platform that allows users to browse, book, and 
 ## 🌐 Live Demo
 
 Experience the platform live:
-👉 https://car-rental-eight-silk-62.vercel.app/
-
+👉https://car-rental-fullstack-bay.vercel.app/
 ---
 
 ## 💻 Repository
