@@ -7,8 +7,9 @@ A modern, full-stack car rental platform that allows users to browse, book, and 
 
 Experience the platform live:
 
-# 👉 [https://car-rental-fullstack-bay.vercel.app/](https://car-rental-fullstack-bay.vercel.app/)
-## 💻 Repository
+<h1 align="center">
+  <a href="https://car-rental-fullstack-bay.vercel.app/">👉 Click Here to View Live Demo</a>
+</h1>
 
 Source code:
 👉 [https://github.com/Vedant-Chaudhari/](https://github.com/Vedant-Chaudhari/CarRental-fullstack)
