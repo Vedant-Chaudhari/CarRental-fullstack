@@ -3,13 +3,11 @@
 A modern, full-stack car rental platform that allows users to browse, book, and manage vehicle listings. This project demonstrates real-world web development using a scalable architecture and cloud deployment.
 
 ---
-
 ## 🌐 Live Demo
 
 Experience the platform live:
-👉https://car-rental-fullstack-bay.vercel.app/
----
 
+# 👉 [https://car-rental-fullstack-bay.vercel.app/](https://car-rental-fullstack-bay.vercel.app/)
 ## 💻 Repository
 
 Source code:
@@ -74,10 +72,9 @@ This project is a fully functional **Car Rental System** designed to simulate re
 
 ## ⭐ Future Improvements
 
-* [ ] **Online Payments Integration** (Razorpay / Stripe)
 * [ ] **Real-time Availability Tracking**
 * [ ] **Image Upload Optimization (Cloudinary)**
 * [ ] **Advanced Search & Filters**
-* [ ] **Map Integration (Google Maps API)**
+
 
 ---
